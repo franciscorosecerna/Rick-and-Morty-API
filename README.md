@@ -31,4 +31,5 @@ Pasó de ser una simple consulta a la API a algo bastante decente, con modo oscu
 [LinkedIn](https://www.linkedin.com/in/francisco-rose-cerna-303439355/)
 
 ---
-> Gracias por leer hasta acá. No hay post-créditos
+Y como una vez dijo un genio:
+>"No lo planeo volver a hacer."
