@@ -8,32 +8,47 @@
 </head>
 <body>
   <h1>Rick and Morty - Personajes</h1>
-
-  <section>
-    <button id="getAllBtn">Obtener todos los personajes</button>
+  
+  <section class="btn-group">
+    <button id="getAllBtn" class="btn btn-secondary">Obtener todos los personajes</button>
+    <button id="toggleDarkMode" class="btn btn-secondary">🌙 Modo oscuro</button>
   </section>
 
   <section>
     <h2>Filtrar personajes</h2>
-    <form id="filterForm">
-      <input type="text" id="name" placeholder="Nombre" />
-      <input type="text" id="status" placeholder="Estado (alive, dead, unknown)" />
-      <input type="text" id="species" placeholder="Especie" />
-      <input type="text" id="type" placeholder="Tipo" />
-      <input type="text" id="gender" placeholder="Género (female, male, genderless, unknown)" />
-      <button type="submit">Filtrar</button>
+    <form id="filterForm" class="form-container">
+      <div class="form-grid">
+        <input type="text" id="name" placeholder="Nombre" />
+        <input type="text" id="status" placeholder="Estado (alive, dead, unknown)" />
+        <input type="text" id="species" placeholder="Especie" />
+        <input type="text" id="type" placeholder="Tipo" />
+        <input type="text" id="gender" placeholder="Género (female, male, genderless, unknown)" />
+      </div>
+      <div class="btn-group">
+        <button type="submit" class="btn btn-primary">Filtrar</button>
+        <button type="button" id="resetFilters" class="btn btn-secondary">Limpiar filtros</button>
+      </div>
     </form>
   </section>
 
   <section>
     <h2>Resultados</h2>
+    <p id="loading" class="loading">Cargando personajes...</p>
     <div id="results"></div>
-    <div id="pagination">
-      <button id="prevPage">Anterior</button>
-      <span id="currentPage">Página: 1</span>
-      <button id="nextPage">Siguiente</button>
-    </div>
     <p id="error" class="error"></p>
+    <p id="totalPages" class="total-pages"></p>
+
+    <div id="pagination" class="pagination">
+      <button id="prevPage" class="btn btn-secondary">Anterior</button>
+      <span id="currentPage">Página: 1</span>
+      <button id="nextPage" class="btn btn-secondary">Siguiente</button>
+
+      <form id="goToForm" class="go-to-form">
+        <label for="goToInput">Ir a página:</label>
+        <input type="number" id="goToInput" min="1" class="go-to-input" />
+        <button type="submit" class="btn btn-primary">Ir</button>
+      </form>
+    </div>
   </section>
 
   <script src="script.js"></script>
