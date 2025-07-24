@@ -1,6 +1,5 @@
 # Rick and Morty - Personajes
 Como tal, este proyecto era un trabajo académico donde aprendíamos el uso básico de `fetch`, pero se me dio por hacerlo más completo... y bueno, acá estamos.
-Pasó de ser una simple consulta a la API a algo bastante decente, con modo oscuro, paginación, filtros, y hasta animaciones. Fue una buena excusa para practicar HTML, CSS y JS.
 
 ---
 
