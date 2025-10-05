@@ -23,12 +23,5 @@ Como tal, este proyecto era un trabajo académico donde aprendíamos el uso bás
 
 ---
 
-## Autor
-
-**Francisco Rose Cerna** (Yo), Estudiante de **Ingeniería en Sistemas** 
-
-[LinkedIn](https://www.linkedin.com/in/francisco-rose-cerna-303439355/)
-
----
 Y como una vez dijo un genio:
 >"No lo planeo volver a hacer."
